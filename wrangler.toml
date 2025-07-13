@@ -1,0 +1,9 @@
+name = "github-oauth-worker"
+main = "src/worker.js"
+compatibility_date = "2024-07-12"
+
+[vars]
+OAUTH_CLIENT_ID = "votre_client_id_github"
+OAUTH_CLIENT_SECRET = "votre_client_secret_github"
+REDIRECT_URL = "votre_redirect_url"
+ORIGINS = "http://localhost:3000, https://votre_domaine.com"
