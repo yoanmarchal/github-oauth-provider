@@ -5,6 +5,6 @@ compatibility_date = "2024-07-12"
 # OAUTH_CLIENT_SECRET n'est pas une variable : c'est un secret, chiffré par Cloudflare.
 #   npx wrangler secret put OAUTH_CLIENT_SECRET
 [vars]
-OAUTH_CLIENT_ID = "votre_client_id_github"
-REDIRECT_URL = "votre_redirect_url"
-ORIGINS = "http://localhost:3000, https://votre_domaine.com"
+OAUTH_CLIENT_ID = "Ov23liMPxC9zQTqFQODJ"
+REDIRECT_URL = "http://localhost:3000/callback"
+ORIGINS = "http://localhost:3000"
